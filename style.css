@@ -1,0 +1,132 @@
+/*font family titre*/
+
+@font-face {
+  font-family: 'lucida_granderegular';
+  src: url('6216-webfont.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*général*/
+
+body {
+  margin: 0;
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+}
+
+/*bande supérieure*/
+
+
+/*Logo*/
+
+.titre {
+  position: absolute;
+  top: 29px;
+  left: 107px;
+  color: #ffffff;
+  font-family: 'lucida_granderegular';
+  font-weight: 900;
+  font-size: 40px;
+}
+
+/*Formulaire de connection*/
+
+.connect {
+  margin: 0;
+  background: linear-gradient(#4c68a2 12%, #3b5998 40%);
+  /*background-color: #3b5998;*/
+  width: 1200px;
+  height: 82px;
+  border-bottom: 0.1em solid #18326F;
+}
+.adress {
+  float: right;
+}
+.psw {
+  float: right;
+}
+.connection {
+  float: right;
+  margin-right: 113px;
+  margin-top: 30px;
+}
+button {
+  background-color: #5973A8;
+  border: 1 solid black !important;
+}
+form {
+  margin-top: 13px;
+  margin-right: 10px;
+  color: white;
+}
+input {
+  border: 1px solid black;
+}
+label3 {
+  font-family: helvetica, arial, sans-serif;
+  color: #9daccb;
+  font-weight: normal;
+  font-size: 12px;
+}
+.password, .email {
+  font-family: helvetica, arial, sans-serif;
+  color: #fff;
+  font-weight: normal;
+  padding-left: 1px;
+  font-size: 12px;
+}
+a {
+  font-family: helvetica, arial, sans-serif;
+  color: #9daccb;
+  font-weight: normal;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+/*milieu de page*/
+
+.inscri {
+  background: linear-gradient(white 12%, #d8dfea 40%);
+  height: 611px;
+  width: 1200px;
+}
+
+/*Colonne de gauche*/
+
+.slogan {
+  margin-left: 111px;
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 29px;
+  margin-top: 38px;
+  width: 450px;
+  word-spacing: -1px;
+}
+.image {
+  background-image: url('image.png');
+  width: 537px;
+  height: 195px;
+  margin-left: 110px;
+  margin-top: 2px;
+}
+
+/*Colonne de droite*/
+
+.inscription-titre {
+  font-weight: bold;
+  margin-right: 325px;
+  font-size: 36px;
+  float: right;
+  margin-top: -267px;
+}
+.gratuit {
+  color: #141823;
+  font-size: 19px;
+  width: 399px;
+  height: 25px;
+  float: right;
+  margin-right: 105px;
+  margin-top: -15px;
+  font-weight: normal;
+}
